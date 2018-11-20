@@ -1,0 +1,15 @@
+{
+  "name": "No Chinese",
+  "description": "disables chinese",
+  "version": "2.0",
+  "permissions": [
+    "tabs"
+  ],
+  "content_scripts": [
+  {
+    "matches": ["http://*/*", "https://*/*"],
+    "js": ["background.js"]
+  }
+  ],
+  "manifest_version": 2
+}
